@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FD8B97F7C198343E0AEE78D /* libPods-GoogleMapsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A326196C66B8DD95C404A68 /* libPods-GoogleMapsDemo.a */; };
 		40613B871DE720A3001014FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40613B861DE720A3001014FC /* AppDelegate.swift */; };
 		40613B891DE720A3001014FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40613B881DE720A3001014FC /* ViewController.swift */; };
 		40613B8C1DE720A3001014FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40613B8A1DE720A3001014FC /* Main.storyboard */; };
 		40613B8E1DE720A3001014FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40613B8D1DE720A3001014FC /* Assets.xcassets */; };
 		40613B911DE720A3001014FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40613B8F1DE720A3001014FC /* LaunchScreen.storyboard */; };
 		40613B991DE7251A001014FC /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40613B981DE7251A001014FC /* GoogleMapView.swift */; };
+		5FB269EA2F56AE01A86A0F67 /* Pods_GoogleMapsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E0C61513894326E9CEBC3 /* Pods_GoogleMapsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		40613B901DE720A3001014FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40613B921DE720A3001014FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40613B981DE7251A001014FC /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
-		8A326196C66B8DD95C404A68 /* libPods-GoogleMapsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70E0C61513894326E9CEBC3 /* Pods_GoogleMapsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71AD3AADEAD93E8A310CED3 /* Pods-GoogleMapsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsDemo/Pods-GoogleMapsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD8B97F7C198343E0AEE78D /* libPods-GoogleMapsDemo.a in Frameworks */,
+				5FB269EA2F56AE01A86A0F67 /* Pods_GoogleMapsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		EA966182C638A490A1CA59A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A326196C66B8DD95C404A68 /* libPods-GoogleMapsDemo.a */,
+				E70E0C61513894326E9CEBC3 /* Pods_GoogleMapsDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -260,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -310,6 +311,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

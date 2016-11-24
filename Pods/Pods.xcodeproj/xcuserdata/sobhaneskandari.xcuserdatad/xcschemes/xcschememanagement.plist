@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PXGoogleDirections.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-GoogleMapsDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B17621DB36C2631AA68C4C06B7453FEB</key>
+		<key>35E223A92E0DEE26BFD08D6B3FB89034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87AFA6DEC5352AB63A1FE7605A5971E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
