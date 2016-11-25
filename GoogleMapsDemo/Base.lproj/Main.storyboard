@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLL-9B-mK2">
-                                <frame key="frameInset" height="214"/>
+                                <frame key="frameInset" height="452" maxY="108"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="aaA-D7-8fo" kind="embed" id="2Sv-T1-bDX"/>
@@ -37,8 +37,12 @@
         <scene sceneID="WaS-OG-byC">
             <objects>
                 <viewController id="aaA-D7-8fo" customClass="GooleMapView" customModule="GoogleMapsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bUg-oX-Y4k"/>
+                        <viewControllerLayoutGuide type="bottom" id="QB4-Rc-5QP"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Usx-74-tbA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="214"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="452"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
